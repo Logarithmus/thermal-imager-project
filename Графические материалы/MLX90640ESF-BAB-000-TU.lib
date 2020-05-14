@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# MLX90640ESF-BAB-000-TU
+#
+DEF MLX90640ESF-BAB-000-TU U 0 40 Y Y 1 L N
+F0 "U" -400 350 50 H V L BNN
+F1 "MLX90640ESF-BAB-000-TU" -400 -450 50 H V L BNN
+F2 "TO292P945H1165-4" 0 0 50 H I L BNN
+F3 "IPC-7351B" 0 0 50 H I L BNN
+F4 "11" 0 0 50 H I L BNN
+F5 "11.65mm" 0 0 50 H I L BNN
+F6 "Melexis" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 -400 300 -400 -400 N
+P 2 0 0 10 -400 -400 400 -400 N
+P 2 0 0 10 400 -400 400 300 N
+P 2 0 0 10 400 300 -400 300 N
+X VDD 2 600 200 200 L 40 40 0 0 W 
+X GND 3 600 -300 200 L 40 40 0 0 W 
+X SCL 4 -600 0 200 R 40 40 0 0 I C
+X SDA 1 -600 -100 200 R 40 40 0 0 B 
+ENDDRAW
+ENDDEF
+#
+# End Library
