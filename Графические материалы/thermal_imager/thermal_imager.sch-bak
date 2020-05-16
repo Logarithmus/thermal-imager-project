@@ -1,0 +1,52 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp "ПИКС, гр. 713802"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L thermal_imager:STM32F401RETx DD?
+U 1 1 5EC21DF2
+P 10750 4100
+F 0 "DD?" H 10800 7400 71  0000 C CNN
+F 1 "STM32F401RETx" H 10800 800 71  0000 C CNN
+F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 9750 2400 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00102166.pdf" H 10650 4400 50  0001 C CNN
+	1    10750 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L thermal_imager:MLX90640-BAB BK?
+U 1 1 5EC250A0
+P 14050 6650
+F 0 "BK?" H 14050 7100 71  0000 C CNN
+F 1 "MLX90640-BAB" H 14050 6200 71  0000 C CNN
+F 2 "TO292P945H1165-4" H 14200 6700 50  0001 L BNN
+F 3 "IPC-7351B" H 13900 6700 50  0001 L BNN
+F 4 "11" H 13900 6700 50  0001 L BNN "Field4"
+F 5 "11.65mm" H 13900 6700 50  0001 L BNN "Field5"
+F 6 "Melexis" H 13900 6700 50  0001 L BNN "Field6"
+	1    14050 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L thermal_imager:ESP8266-12E DD?
+U 1 1 5EC25F78
+P 14050 1950
+F 0 "DD?" H 14050 3250 71  0000 C CNN
+F 1 "ESP8266-12E" H 14050 850 71  0000 C CNN
+F 2 "XCVR_ESP8266-12E/ESP-12E" H 14250 2150 50  0001 L BNN
+F 3 "AI-Thinker" H 13850 1850 50  0001 L BNN
+	1    14050 1950
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

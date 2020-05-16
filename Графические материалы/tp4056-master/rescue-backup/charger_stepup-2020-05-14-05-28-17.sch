@@ -1,5 +1,38 @@
-EESchema Schematic File Version 4
-EELAYER 30 0
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:tp4056
+LIBS:ce8301
+LIBS:dw01
+LIBS:fs8205a
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -14,7 +47,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L charger_stepup-rescue:R R2
+L R R2
 U 1 1 5980CC1A
 P 2300 2250
 F 0 "R2" V 2380 2250 50  0000 C CNN
@@ -25,7 +58,7 @@ F 3 "" H 2300 2250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L charger_stepup-rescue:C C1
+L C C1
 U 1 1 5980CC73
 P 1300 2800
 F 0 "C1" H 1325 2900 50  0000 L CNN
@@ -36,7 +69,7 @@ F 3 "" H 1300 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L charger_stepup-rescue:LED D2
+L LED D2
 U 1 1 5980CCB4
 P 1700 2550
 F 0 "D2" H 1700 2650 50  0000 C CNN
@@ -47,7 +80,7 @@ F 3 "" H 1700 2550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L charger_stepup-rescue:R R1
+L R R1
 U 1 1 5980CDB4
 P 2250 2550
 F 0 "R1" V 2330 2550 50  0000 C CNN
@@ -58,7 +91,7 @@ F 3 "" H 2250 2550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L charger_stepup-rescue:LED D1
+L LED D1
 U 1 1 5980CE60
 P 1700 2250
 F 0 "D1" H 1700 2350 50  0000 C CNN
@@ -69,7 +102,7 @@ F 3 "" H 1700 2250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L charger_stepup-rescue:R R3
+L R R3
 U 1 1 5980D069
 P 4050 2500
 F 0 "R3" V 4130 2500 50  0000 C CNN
@@ -88,7 +121,18 @@ IN-
 Text Notes 950  2550 0    60   ~ 0
 +5
 $Comp
-L charger_stepup-rescue:C C2
+L R R4
+U 1 1 598D0D68
+P 5400 2700
+F 0 "R4" V 5480 2700 50  0000 C CNN
+F 1 "1k" V 5400 2700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 5330 2700 50  0001 C CNN
+F 3 "" H 5400 2700 50  0001 C CNN
+	1    5400 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C2
 U 1 1 598D1488
 P 6950 2550
 F 0 "C2" H 6975 2650 50  0000 L CNN
@@ -99,7 +143,7 @@ F 3 "" H 6950 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L charger_stepup-rescue:R R5
+L R R5
 U 1 1 598D157A
 P 7450 2250
 F 0 "R5" V 7530 2250 50  0000 C CNN
@@ -109,7 +153,29 @@ F 3 "" H 7450 2250 50  0001 C CNN
 	1    7450 2250
 	0    1    1    0   
 $EndComp
-NoConn ~ 5550 2550
+$Comp
+L DW01 U2
+U 1 1 598D23F7
+P 6100 2400
+F 0 "U2" H 6200 2750 60  0000 C CNN
+F 1 "DW01" H 6000 2750 60  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23-6_Handsoldering" H 6050 2100 60  0001 C CNN
+F 3 "" H 6050 2100 60  0001 C CNN
+	1    6100 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L TP4056 U1
+U 1 1 597F50E3
+P 3350 2350
+F 0 "U1" H 3000 2750 60  0000 L CNN
+F 1 "TP4056" H 3700 2750 60  0000 R CNN
+F 2 "lib:TP4056_SOP-8-PP" H 3350 2350 60  0001 C CNN
+F 3 "" H 3350 2350 60  0000 C CNN
+	1    3350 2350
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5550 2250
 Text GLabel 8050 1950 2    39   Input ~ 0
 OUT+
 Text GLabel 8050 3000 2    39   Input ~ 0
@@ -117,7 +183,7 @@ BAT-
 Text GLabel 8050 3350 2    39   Input ~ 0
 OUT-
 $Comp
-L charger_stepup-rescue:CONN_01X01 J2
+L CONN_01X01 J2
 U 1 1 598F8785
 P 950 1600
 F 0 "J2" H 950 1700 50  0000 C CNN
@@ -128,7 +194,7 @@ F 3 "" H 950 1600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L charger_stepup-rescue:CONN_01X01 J1
+L CONN_01X01 J1
 U 1 1 598F8882
 P 900 3550
 F 0 "J1" H 900 3650 50  0000 C CNN
@@ -139,7 +205,7 @@ F 3 "" H 900 3550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L charger_stepup-rescue:CONN_01X01 J5
+L CONN_01X01 J5
 U 1 1 598F8A0B
 P 8700 2400
 F 0 "J5" H 8700 2500 50  0000 C CNN
@@ -150,7 +216,7 @@ F 3 "" H 8700 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L charger_stepup-rescue:CONN_01X01 J6
+L CONN_01X01 J6
 U 1 1 598F8B93
 P 8800 2800
 F 0 "J6" H 8800 2900 50  0000 C CNN
@@ -161,7 +227,7 @@ F 3 "" H 8800 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L charger_stepup-rescue:CONN_01X01 J4
+L CONN_01X01 J4
 U 1 1 598F8EE2
 P 8600 4400
 F 0 "J4" H 8600 4500 50  0000 C CNN
@@ -172,7 +238,7 @@ F 3 "" H 8600 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L charger_stepup-rescue:CONN_01X01 J3
+L CONN_01X01 J3
 U 1 1 598F8FBA
 P 8500 1650
 F 0 "J3" H 8500 1750 50  0000 C CNN
@@ -201,27 +267,30 @@ Wire Wire Line
 Wire Wire Line
 	3850 2500 3900 2500
 Wire Wire Line
-	3850 2100 4600 2100
+	3850 2100 5650 2100
 Wire Wire Line
 	2550 2200 2850 2200
 Wire Wire Line
-	1100 2100 1200 2100
+	1100 2100 2850 2100
 Connection ~ 2550 2100
 Wire Wire Line
-	2550 2100 2550 2200
+	2550 2100 2550 2300
 Wire Wire Line
-	1100 3150 1200 3150
+	1100 3150 4900 3150
+Wire Wire Line
+	3350 3150 3350 2750
 Wire Wire Line
 	3850 2400 4300 2400
 Wire Wire Line
-	4300 2400 4300 2500
+	4300 2400 4300 3150
 Wire Wire Line
 	4300 2500 4200 2500
+Connection ~ 3350 3150
 Connection ~ 4300 2500
 Wire Wire Line
 	1550 2250 1450 2250
 Wire Wire Line
-	1450 2100 1450 2250
+	1450 2100 1450 2550
 Connection ~ 1450 2100
 Wire Wire Line
 	1450 2550 1550 2550
@@ -232,21 +301,31 @@ Connection ~ 1300 2100
 Wire Wire Line
 	1300 2950 1300 3150
 Connection ~ 1300 3150
+Wire Wire Line
+	6700 2250 7300 2250
 Connection ~ 6950 2250
 Wire Wire Line
 	6950 2400 6950 2250
 Wire Wire Line
+	6700 2450 6750 2450
+Wire Wire Line
+	6750 2450 6750 3000
+Wire Wire Line
+	5550 2450 5400 2450
+Wire Wire Line
+	5400 2450 5400 2550
+Wire Wire Line
 	5650 2100 5650 1950
 Wire Wire Line
-	5650 1950 7750 1950
+	5650 1950 8050 1950
 Wire Wire Line
-	7600 2250 7750 2250
+	7600 2250 8050 2250
 Wire Wire Line
 	7750 1950 7750 2250
 Connection ~ 7750 2250
 Connection ~ 7750 1950
 Wire Wire Line
-	4900 4400 5800 4400
+	4900 4400 8400 4400
 Wire Wire Line
 	7900 4400 7900 3350
 Wire Wire Line
@@ -275,7 +354,7 @@ Wire Wire Line
 	7950 1650 7950 1950
 Connection ~ 7950 1950
 $Comp
-L charger_stepup-rescue:C C3
+L C C3
 U 1 1 5996DEBE
 P 4600 2700
 F 0 "C3" H 4625 2800 50  0000 L CNN
@@ -290,17 +369,46 @@ Wire Wire Line
 Connection ~ 4600 2100
 Wire Wire Line
 	4600 3150 4600 2850
+Text Notes 4650 2450 0    60   ~ 0
+ceramic cap\n
+$Comp
+L FS8205A U3
+U 1 1 59976E41
+P 6150 3500
+F 0 "U3" H 6200 3500 60  0000 C CNN
+F 1 "FS8205A" H 6200 3350 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm" H 7100 3750 60  0001 C CNN
+F 3 "" H 7100 3750 60  0001 C CNN
+	1    6150 3500
+	1    0    0    -1  
+$EndComp
 NoConn ~ 6350 3100
 NoConn ~ 6350 4100
 Wire Wire Line
 	5950 3100 5950 2900
 Wire Wire Line
-	6050 4100 6150 4100
+	5950 2900 6250 2900
 Wire Wire Line
-	6050 3100 6150 3100
+	6250 2900 6250 2850
+Wire Wire Line
+	5950 4100 5700 4100
+Wire Wire Line
+	5700 4100 5700 2850
+Wire Wire Line
+	5700 2850 5950 2850
+Wire Wire Line
+	6050 4100 6250 4100
+Wire Wire Line
+	6050 3100 6250 3100
 Wire Wire Line
 	6150 3100 6150 3000
+Wire Wire Line
+	6150 3000 8050 3000
 Connection ~ 6150 3100
+Wire Wire Line
+	5400 2850 5400 4250
+Wire Wire Line
+	5400 4250 6150 4250
 Wire Wire Line
 	6150 4250 6150 4100
 Connection ~ 6150 4100
@@ -312,6 +420,7 @@ Wire Wire Line
 	4900 3150 4900 4400
 Connection ~ 4300 3150
 Connection ~ 4600 3150
+Connection ~ 6750 3000
 Wire Wire Line
 	6950 2700 6950 3000
 Connection ~ 6950 3000
@@ -325,134 +434,4 @@ Text Notes 600  2850 0    60   ~ 0
 ceramic cap\n
 Text Notes 7200 2550 0    60   ~ 0
 ceramic cap\n
-Wire Wire Line
-	2550 2100 2850 2100
-Wire Wire Line
-	4300 2500 4300 3150
-Wire Wire Line
-	1450 2100 2550 2100
-Wire Wire Line
-	1450 2250 1450 2550
-Wire Wire Line
-	1300 2100 1450 2100
-Wire Wire Line
-	6950 2250 7300 2250
-Wire Wire Line
-	7750 2250 7900 2250
-Wire Wire Line
-	7750 1950 7950 1950
-Wire Wire Line
-	1200 2100 1300 2100
-Wire Wire Line
-	1200 3150 1300 3150
-Wire Wire Line
-	7900 2250 8050 2250
-Wire Wire Line
-	7900 4400 8400 4400
-Wire Wire Line
-	7950 1950 8050 1950
-Wire Wire Line
-	4600 2100 5650 2100
-Wire Wire Line
-	6150 3100 6250 3100
-Wire Wire Line
-	6150 4100 6250 4100
-Wire Wire Line
-	5800 4400 7900 4400
-Wire Wire Line
-	5800 4250 6150 4250
-Wire Wire Line
-	4300 3150 4600 3150
-Wire Wire Line
-	4600 3150 4900 3150
-Wire Wire Line
-	6950 3000 7900 3000
-Wire Wire Line
-	7900 3000 8050 3000
-Wire Wire Line
-	2550 2200 2550 2300
-Wire Wire Line
-	6700 2250 6950 2250
-Wire Wire Line
-	1300 3150 2750 3150
-Wire Wire Line
-	2750 3150 4300 3150
-Connection ~ 2750 3150
-Wire Wire Line
-	2750 3150 2750 2000
-Wire Wire Line
-	2750 2000 2850 2000
-$Comp
-L thermal_imager:TP4056 DD
-U 1 1 597F50E3
-P 3350 2200
-F 0 "DD" H 3300 2400 60  0000 L CNN
-F 1 "TP4056" H 3700 2600 60  0000 R CNN
-F 2 "lib:TP4056_SOP-8-PP" H 3350 2200 60  0001 C CNN
-F 3 "" H 3350 2200 60  0000 C CNN
-	1    3350 2200
-	1    0    0    -1  
-$EndComp
-Connection ~ 6700 3000
-Wire Wire Line
-	6150 3000 6700 3000
-Wire Wire Line
-	6700 3000 6950 3000
-Wire Wire Line
-	6700 2550 6700 3000
-$Comp
-L thermal_imager:DW01 DD
-U 1 1 598D23F7
-P 6100 2450
-F 0 "DD" H 6100 2650 60  0000 C CNN
-F 1 "DW01" H 6000 2800 60  0000 C CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23-6_Handsoldering" H 6050 2150 60  0001 C CNN
-F 3 "" H 6050 2150 60  0001 C CNN
-	1    6100 2450
-	1    0    0    -1  
-$EndComp
-Text Notes 4500 2450 0    60   ~ 0
-ceramic cap\n
-Wire Wire Line
-	5150 2850 5150 4250
-$Comp
-L charger_stepup-rescue:R R4
-U 1 1 598D0D68
-P 5150 2700
-F 0 "R4" V 5230 2700 50  0000 C CNN
-F 1 "1k" V 5150 2700 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 5080 2700 50  0001 C CNN
-F 3 "" H 5150 2700 50  0001 C CNN
-	1    5150 2700
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	5150 4250 5800 4250
-Wire Wire Line
-	5150 2550 5150 2350
-Wire Wire Line
-	5150 2350 5500 2350
-Wire Wire Line
-	5300 4100 5300 2450
-Wire Wire Line
-	5950 4100 5300 4100
-Wire Wire Line
-	5300 2450 5500 2450
-Wire Wire Line
-	5950 2900 5400 2900
-Wire Wire Line
-	5400 2900 5400 2250
-Wire Wire Line
-	5400 2250 5500 2250
-$Comp
-L thermal_imager:FS8205A *T
-U 1 1 59976E41
-P 6150 3500
-F 0 "*T" V 5950 3400 60  0000 C CNN
-F 1 "FS8205A" H 6200 3350 60  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm" H 7100 3750 60  0001 C CNN
-F 3 "" H 7100 3750 60  0001 C CNN
-	1    6150 3500
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC
