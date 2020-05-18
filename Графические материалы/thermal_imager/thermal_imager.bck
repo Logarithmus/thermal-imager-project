@@ -1,10 +1,14 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP ESP8266-12E
-F AI-Thinker
+$CMP C_CAP
+D Конденсатор постоянной емкости
 $ENDCMP
 #
-$CMP ESP8266-12E_ESP-12E
+$CMP C_SPICE
+D Конденсатор (SPICE модель)
+$ENDCMP
+#
+$CMP ESP8266-12E
 F AI-Thinker
 $ENDCMP
 #
@@ -18,6 +22,14 @@ $CMP STM32F401RETx
 D ARM Cortex-M4 MCU, 512KB flash, 96KB RAM, 84MHz, 1.7-3.6V, 50 GPIO, LQFP-64
 K ARM Cortex-M4 STM32F4 STM32F401
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00102166.pdf
+$ENDCMP
+#
+$CMP XS_SOCKET_ARR4
+D Гнездовое соединение на 4 контакта
+$ENDCMP
+#
+$CMP XS_SOCKET_MICROUSB
+D Гнездовое соединение на 4 контакта
 $ENDCMP
 #
 #End Doc Library

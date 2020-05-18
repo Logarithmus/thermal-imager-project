@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name thermal_imager)(type KiCad)(uri ${KIPRJMOD}/thermal_imager.pretty)(options "")(descr ""))
+)

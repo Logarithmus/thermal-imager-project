@@ -1,7 +1,23 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP C_CAP
+D Конденсатор постоянной емкости
+$ENDCMP
+#
+$CMP C_SPICE
+D Конденсатор (SPICE модель)
+$ENDCMP
+#
 $CMP ESP8266-12E
 F AI-Thinker
+$ENDCMP
+#
+$CMP GB_BATTERY
+D Батарея
+$ENDCMP
+#
+$CMP HL_LED
+D Светодиод
 $ENDCMP
 #
 $CMP STM32F401RDTx
@@ -14,6 +30,410 @@ $CMP STM32F401RETx
 D ARM Cortex-M4 MCU, 512KB flash, 96KB RAM, 84MHz, 1.7-3.6V, 50 GPIO, LQFP-64
 K ARM Cortex-M4 STM32F4 STM32F401
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00102166.pdf
+$ENDCMP
+#
+$CMP XS_SOCKET_ARR4
+D Гнездовое соединение на 4 контакта
+$ENDCMP
+#
+$CMP XS_SOCKET_MICROUSB
+D Гнездовое соединение на 4 контакта
+$ENDCMP
+#
+$CMP АЛ102А
+D Светодиод
+$ENDCMP
+#
+$CMP АЛ102АМ
+D Светодиод
+$ENDCMP
+#
+$CMP АЛ102Б
+D Светодиод
+$ENDCMP
+#
+$CMP АЛ102БМ
+D Светодиод
+$ENDCMP
+#
+$CMP АЛ102В
+D Светодиод
+$ENDCMP
+#
+$CMP АЛ102ВМ
+D Светодиод
+$ENDCMP
+#
+$CMP АЛ102Г
+D Светодиод
+$ENDCMP
+#
+$CMP АЛ102ГМ
+D Светодиод
+$ENDCMP
+#
+$CMP АЛ102Д
+D Светодиод
+$ENDCMP
+#
+$CMP АЛ102ДМ
+D Светодиод
+$ENDCMP
+#
+$CMP АЛ112А
+D Светодиод
+$ENDCMP
+#
+$CMP АЛ112Б
+D Светодиод
+$ENDCMP
+#
+$CMP АЛ112В
+D Светодиод
+$ENDCMP
+#
+$CMP АЛ112Г
+D Светодиод
+$ENDCMP
+#
+$CMP АЛ112Д
+D Светодиод
+$ENDCMP
+#
+$CMP АЛ112Е
+D Светодиод
+$ENDCMP
+#
+$CMP АЛ112Ж
+D Светодиод
+$ENDCMP
+#
+$CMP АЛ112И
+D Светодиод
+$ENDCMP
+#
+$CMP АЛ112К
+D Светодиод
+$ENDCMP
+#
+$CMP АЛ112Л
+D Светодиод
+$ENDCMP
+#
+$CMP АЛ112М
+D Светодиод
+$ENDCMP
+#
+$CMP АЛ301А
+D Светодиод
+$ENDCMP
+#
+$CMP АЛ301Б
+D Светодиод
+$ENDCMP
+#
+$CMP АЛ307А
+D Светодиод
+$ENDCMP
+#
+$CMP АЛ307АМ
+D Светодиод
+$ENDCMP
+#
+$CMP АЛ307Б
+D Светодиод
+$ENDCMP
+#
+$CMP АЛ307БМ
+D Светодиод
+$ENDCMP
+#
+$CMP АЛ307В
+D Светодиод
+$ENDCMP
+#
+$CMP АЛ307ВМ
+D Светодиод
+$ENDCMP
+#
+$CMP АЛ307Г
+D Светодиод
+$ENDCMP
+#
+$CMP АЛ307ГМ
+D Светодиод
+$ENDCMP
+#
+$CMP АЛ307Д
+D Светодиод
+$ENDCMP
+#
+$CMP АЛ307ДМ
+D Светодиод
+$ENDCMP
+#
+$CMP АЛ307Е
+D Светодиод
+$ENDCMP
+#
+$CMP АЛ307ЕМ
+D Светодиод
+$ENDCMP
+#
+$CMP АЛ307ЖМ
+D Светодиод
+$ENDCMP
+#
+$CMP АЛ307И
+D Светодиод
+$ENDCMP
+#
+$CMP АЛ307КМ
+D Светодиод
+$ENDCMP
+#
+$CMP АЛ307Л
+D Светодиод
+$ENDCMP
+#
+$CMP АЛ307НМ
+D Светодиод
+$ENDCMP
+#
+$CMP АЛ310А
+D Светодиод
+$ENDCMP
+#
+$CMP АЛ310Б
+D Светодиод
+$ENDCMP
+#
+$CMP АЛ316А
+D Светодиод
+$ENDCMP
+#
+$CMP АЛ316Б
+D Светодиод
+$ENDCMP
+#
+$CMP АЛ341А
+D Светодиод
+$ENDCMP
+#
+$CMP АЛ341Б
+D Светодиод
+$ENDCMP
+#
+$CMP АЛ341В
+D Светодиод
+$ENDCMP
+#
+$CMP АЛ341Г
+D Светодиод
+$ENDCMP
+#
+$CMP АЛ341Д
+D Светодиод
+$ENDCMP
+#
+$CMP АЛ341Е
+D Светодиод
+$ENDCMP
+#
+$CMP АЛ341И
+D Светодиод
+$ENDCMP
+#
+$CMP АЛ341К
+D Светодиод
+$ENDCMP
+#
+$CMP АЛС331А
+D Светодиод
+$ENDCMP
+#
+$CMP КИПД01А-1Л
+D Светодиод
+$ENDCMP
+#
+$CMP КИПД01Б-1Л
+D Светодиод
+$ENDCMP
+#
+$CMP КИПД02А-1К
+D Светодиод
+$ENDCMP
+#
+$CMP КИПД02Б-1К
+D Светодиод
+$ENDCMP
+#
+$CMP КИПД02В-1Л
+D Светодиод
+$ENDCMP
+#
+$CMP КИПД02Г-1Л
+D Светодиод
+$ENDCMP
+#
+$CMP КИПД02Д-1Ж
+D Светодиод
+$ENDCMP
+#
+$CMP КИПД02Е-1Ж
+D Светодиод
+$ENDCMP
+#
+$CMP КИПД03А-1Ж
+D Светодиод
+$ENDCMP
+#
+$CMP КИПД03А-1К
+D Светодиод
+$ENDCMP
+#
+$CMP КИПД03А-1Л
+D Светодиод
+$ENDCMP
+#
+$CMP КИПД04А-1К
+D Светодиод
+$ENDCMP
+#
+$CMP КИПД04Б-1К
+D Светодиод
+$ENDCMP
+#
+$CMP КИПД05А-1К
+D Светодиод
+$ENDCMP
+#
+$CMP КИПД05Б-1Л
+D Светодиод
+$ENDCMP
+#
+$CMP КИПД05В-1Ж
+D Светодиод
+$ENDCMP
+#
+$CMP КИПД06А-1К
+D Светодиод
+$ENDCMP
+#
+$CMP КИПД06Б-1К
+D Светодиод
+$ENDCMP
+#
+$CMP КИПД06В-1Л
+D Светодиод
+$ENDCMP
+#
+$CMP КИПД06Г-1Л
+D Светодиод
+$ENDCMP
+#
+$CMP КИПМ01А-1К
+D Светодиод
+$ENDCMP
+#
+$CMP КИПМ01Б-1К
+D Светодиод
+$ENDCMP
+#
+$CMP КИПМ01В-1Л
+D Светодиод
+$ENDCMP
+#
+$CMP КИПМ01Г-1Л
+D Светодиод
+$ENDCMP
+#
+$CMP КИПМ01Д-1Л
+D Светодиод
+$ENDCMP
+#
+$CMP КИПМ02А-1К
+D Светодиод
+$ENDCMP
+#
+$CMP КИПМ02Б-1К
+D Светодиод
+$ENDCMP
+#
+$CMP КИПМ02В-1Л
+D Светодиод
+$ENDCMP
+#
+$CMP КИПМ02Г-1Л
+D Светодиод
+$ENDCMP
+#
+$CMP КИПМ02Д-1Л
+D Светодиод
+$ENDCMP
+#
+$CMP КИПМ03А-1К
+D Светодиод
+$ENDCMP
+#
+$CMP КИПМ03Б-1К
+D Светодиод
+$ENDCMP
+#
+$CMP КИПМ03В-1Л
+D Светодиод
+$ENDCMP
+#
+$CMP КИПМ03Г-1Л
+D Светодиод
+$ENDCMP
+#
+$CMP КИПМ03Д-1Л
+D Светодиод
+$ENDCMP
+#
+$CMP КИПМ04А-1К
+D Светодиод
+$ENDCMP
+#
+$CMP КИПМ04Б-1К
+D Светодиод
+$ENDCMP
+#
+$CMP КИПМ04В-1Л
+D Светодиод
+$ENDCMP
+#
+$CMP КИПМ04Г-1Л
+D Светодиод
+$ENDCMP
+#
+$CMP КИПМ04Д-1Л
+D Светодиод
+$ENDCMP
+#
+$CMP КЛ101А
+D Светодиод
+$ENDCMP
+#
+$CMP КЛ101Б
+D Светодиод
+$ENDCMP
+#
+$CMP КЛ101В
+D Светодиод
+$ENDCMP
+#
+$CMP КЛ360А
+D Светодиод
+$ENDCMP
+#
+$CMP КЛ360Б
+D Светодиод
+$ENDCMP
+#
+$CMP КЛД901А
+D Светодиод
 $ENDCMP
 #
 #End Doc Library
