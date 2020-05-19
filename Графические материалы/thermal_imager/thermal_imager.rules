@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 402)
+    (start_pass_no 608)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
@@ -44,7 +44,7 @@
     "Via[0-1]_800:400_um" "Via[0-1]_800:400_um" default
   )
   (via 
-    "Via[0-1]_800:400_um-kicad_default" "Via[0-1]_800:400_um" default
+    "Via[0-1]_800:400_um-kicad_default" "Via[0-1]_800:400_um" "kicad_default"
   )
   (via_rule
     default "Via[0-1]_800:400_um"
@@ -75,7 +75,7 @@
     "Net-(DD4-Pad20)" "Net-(DD4-Pad19)" "Net-(DD4-Pad18)" "Net-(DD4-Pad17)" "Net-(DD4-Pad16)" "Net-(DD4-Pad7)" "Net-(DD4-Pad6)" "Net-(DD4-Pad5)"
     "Net-(DD4-Pad4)" "Net-(DD4-Pad3)" "Net-(DD4-Pad2)" "Net-(DD4-Pad1)" "Net-(HL1-Pad1)" "Net-(HL2-Pad1)" "Net-(R4-Pad2)" "Net-(VT1-Pad8)"
     "Net-(VT1-Pad1)" "Net-(XS1-Pad3)" "Net-(XS1-Pad4)" "Net-(XS1-Pad2)"
-    (clearance_class default)
+    (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
       (width 250.0)

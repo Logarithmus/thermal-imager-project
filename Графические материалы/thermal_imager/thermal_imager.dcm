@@ -40,6 +40,10 @@ $CMP XS_SOCKET_MICROUSB
 D Гнездовое соединение на 4 контакта
 $ENDCMP
 #
+$CMP XS_SOCKET_SWD
+D Гнездовое соединение на 4 контакта
+$ENDCMP
+#
 $CMP АЛ102А
 D Светодиод
 $ENDCMP

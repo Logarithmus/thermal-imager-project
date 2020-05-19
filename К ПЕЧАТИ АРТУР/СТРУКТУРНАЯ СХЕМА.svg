@@ -9,7 +9,7 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
-   sodipodi:docname="СТРУКТУРНАЯ СХЕМА.svg"
+   sodipodi:docname="СТРУКТУРНАЯ СХЕМА.svg.2020_05_19_01_33_33.0.svg"
    id="svg2829"
    version="1.2"
    viewBox="0 0 1190.5 841.5"
@@ -23,21 +23,23 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <sodipodi:namedview
+     inkscape:snap-object-midpoints="true"
+     inkscape:object-paths="true"
      inkscape:current-layer="svg2829"
      inkscape:window-maximized="1"
      inkscape:window-y="31"
      inkscape:window-x="0"
-     inkscape:cy="689.3819"
-     inkscape:cx="785.83411"
-     inkscape:zoom="0.76028851"
+     inkscape:cy="678.41778"
+     inkscape:cx="751.78257"
+     inkscape:zoom="2.3017009"
      showgrid="false"
      id="namedview2831"
-     inkscape:window-height="850"
+     inkscape:window-height="845"
      inkscape:window-width="1600"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0"
@@ -46,7 +48,8 @@
      objecttolerance="10"
      borderopacity="1"
      bordercolor="#666666"
-     pagecolor="#ffffff" />
+     pagecolor="#ffffff"
+     inkscape:document-rotation="0" />
   <defs
      id="defs622">
     <g
@@ -4177,7 +4180,7 @@
        y="-28.83766"
        x="-234.51968"
        id="tspan3963"
-       sodipodi:role="line">ГУИР.405226.044 Э1</tspan></text>
+       sodipodi:role="line">ГУИР.405226.079 Э1</tspan></text>
   <text
      xml:space="preserve"
      style="font-size:18px;line-height:12px;font-family:'GOST type B';-inkscape-font-specification:'GOST type B';letter-spacing:0px;word-spacing:0px;stroke-width:0.75"
@@ -4188,7 +4191,7 @@
        id="tspan3963-6"
        x="928.94238"
        y="698.64783"
-       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'GOST type b';-inkscape-font-specification:'GOST type b';stroke-width:0.75">ГУИР.405226.044 Э1</tspan></text>
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'GOST type b';-inkscape-font-specification:'GOST type b';stroke-width:0.75">ГУИР.405226.079 Э1</tspan></text>
   <text
      id="text3987"
      y="734.82562"
@@ -4407,27 +4410,30 @@
        style="fill:none;stroke:#000000;stroke-width:1.1336;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 644.102,-444.84 20.324,8.555 -20.324,8.555 m -97.168,-8.555 h 117.492" />
   </g>
-  <text
-     id="text500"
-     style="font-variant:normal;font-weight:normal;font-size:11.3932px;font-family:'GOST type B';-inkscape-font-specification:GOSTTypeB;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.698374"
-     transform="skewX(-11.309933)"
-     x="510.11331"
-     y="316.78717"><tspan
-       id="tspan498"
-       sodipodi:role="line"
+  <g
+     id="g1233">
+    <text
        y="316.78717"
-       x="510.11331 515.67322 518.45312 524.013"
-       style="stroke-width:0.698374">3,3</tspan></text>
-  <text
-     id="text504"
-     style="font-variant:normal;font-weight:normal;font-size:11.3932px;font-family:'GOST type B';-inkscape-font-specification:GOSTTypeB;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.698374"
-     transform="skewX(-11.309933)"
-     x="528.65002"
-     y="316.78717"><tspan
-       id="tspan502"
+       x="510.11331"
+       transform="skewX(-11.309933)"
+       style="font-variant:normal;font-weight:normal;font-size:11.3932px;font-family:'GOST type B';-inkscape-font-specification:GOSTTypeB;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.698374"
+       id="text500"><tspan
+         style="stroke-width:0.698374"
+         x="510.11331 515.67322 518.45312 524.013"
+         y="316.78717"
+         sodipodi:role="line"
+         id="tspan498">3,3</tspan></text>
+    <text
        y="316.78717"
        x="528.65002"
-       style="stroke-width:0.698374">В</tspan></text>
+       transform="skewX(-11.309933)"
+       style="font-variant:normal;font-weight:normal;font-size:11.3932px;font-family:'GOST type B';-inkscape-font-specification:GOSTTypeB;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.698374"
+       id="text504"><tspan
+         style="stroke-width:0.698374"
+         x="528.65002"
+         y="316.78717"
+         id="tspan502">В</tspan></text>
+  </g>
   <g
      transform="matrix(0.71220499,0,0,-0.71220499,34.784238,12.075875)"
      id="g506">
@@ -4836,4 +4842,155 @@
        y="419.29736"
        x="1156.8243 1163.3071 1169.7898"
        style="stroke-width:0.698374">GND</tspan></text>
+  <g
+     transform="translate(381.50099,23.97042)"
+     id="g1021">
+    <g
+       transform="matrix(0.71220499,0,0,-0.71220499,34.784238,81.649044)"
+       id="g586-3">
+      <path
+         id="path588-6"
+         style="fill:none;stroke:#000000;stroke-width:1.07808;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         d="M 247.543,-732.363 H 115.699 v 97.687 h 263.688 v -97.687 z" />
+    </g>
+    <text
+       id="text1031"
+       y="565.13898"
+       x="210.60951"
+       style="font-size:16.0364px;line-height:115%;font-family:'GOST type B';-inkscape-font-specification:'GOST type B';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;stroke-width:0.751694"
+       xml:space="preserve"
+       transform="scale(1.0022605,0.99774458)"><tspan
+         y="565.13898"
+         x="210.60951"
+         id="tspan1037"
+         sodipodi:role="line"
+         style="font-size:16.0364px;text-align:center;text-anchor:middle;stroke-width:0.751694">Порт прошивки и</tspan><tspan
+         id="tspan1039"
+         y="583.58081"
+         x="213.89822"
+         sodipodi:role="line"
+         style="font-size:16.0364px;text-align:center;text-anchor:middle;stroke-width:0.751694">отладки (SWD) </tspan></text>
+  </g>
+  <g
+     id="g432-3"
+     transform="matrix(0.71220499,0,0,-0.71220499,444.15347,88.277849)">
+    <path
+       sodipodi:nodetypes="ccccc"
+       d="m 310.031,-485.84156 -8.554,20.32 -8.555,-20.32 m 8.555,20.32 v -193.50363"
+       style="fill:none;stroke:#000000;stroke-width:1.1336;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path434-7-6" />
+  </g>
+  <g
+     transform="matrix(0.71220499,0,0,-0.71220499,399.06459,88.277849)"
+     id="g432-3-3">
+    <path
+       id="path434-7-6-5"
+       style="fill:none;stroke:#000000;stroke-width:1.1336;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 310.031,-638.70419 -8.554,-20.321 -8.555,20.321 m 17.109,152.86263 -8.554,20.32 -8.555,-20.32 m 8.555,20.32 v -193.50363"
+       sodipodi:nodetypes="cccccccc" />
+  </g>
+  <g
+     transform="matrix(0.71220499,0,0,-0.71220499,312.1785,88.277849)"
+     id="g432-3-2">
+    <path
+       id="path434-7-6-7"
+       style="fill:none;stroke:#000000;stroke-width:1.1336;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 310.031,-485.84156 -8.554,20.32 -8.555,-20.32 m 8.555,20.32 v -193.50363"
+       sodipodi:nodetypes="ccccc" />
+  </g>
+  <g
+     id="g432-3-2-8"
+     transform="matrix(0.71220499,0,0,-0.71220499,358.13591,88.277849)">
+    <path
+       sodipodi:nodetypes="ccccc"
+       d="m 310.031,-485.84156 -8.554,20.32 -8.555,-20.32 m 8.555,20.32 v -193.50363"
+       style="fill:none;stroke:#000000;stroke-width:1.1336;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path434-7-6-7-7" />
+  </g>
+  <text
+     y="528.0564"
+     x="637.41235"
+     transform="skewX(-11.309932)"
+     style="font-variant:normal;font-weight:normal;font-size:11.3932px;font-family:'GOST type B';-inkscape-font-specification:GOSTTypeB;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.698374"
+     id="text512-9"><tspan
+       style="stroke-width:0.698374"
+       x="637.41235 643.89514 650.37787"
+       y="528.0564"
+       sodipodi:role="line"
+       id="tspan510-2">GND</tspan></text>
+  <g
+     transform="translate(216.57071,210.49317)"
+     id="g1233-9">
+    <text
+       id="text500-2"
+       style="font-variant:normal;font-weight:normal;font-size:11.3932px;font-family:'GOST type B';-inkscape-font-specification:GOSTTypeB;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.698374"
+       transform="skewX(-11.309933)"
+       x="510.11331"
+       y="316.78717"><tspan
+         id="tspan498-2"
+         sodipodi:role="line"
+         y="316.78717"
+         x="510.11331 515.67322 518.45312 524.013"
+         style="stroke-width:0.698374">3,3</tspan></text>
+    <text
+       id="text504-8"
+       style="font-variant:normal;font-weight:normal;font-size:11.3932px;font-family:'GOST type B';-inkscape-font-specification:GOSTTypeB;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.698374"
+       transform="skewX(-11.309933)"
+       x="528.65002"
+       y="316.78717"><tspan
+         id="tspan502-9"
+         y="316.78717"
+         x="528.65002"
+         style="stroke-width:0.698374">В</tspan></text>
+  </g>
+  <g
+     transform="translate(127.58961,211.25253)"
+     id="g1233-7">
+    <text
+       id="text500-3"
+       style="font-variant:normal;font-weight:normal;font-size:11.3932px;font-family:'GOST type B';-inkscape-font-specification:GOSTTypeB;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.698374"
+       transform="skewX(-11.309933)"
+       x="510.11331"
+       y="316.78717"><tspan
+         y="316.78717"
+         id="tspan498-6"
+         sodipodi:role="line"
+         x="510.11331"
+         style="stroke-width:0.698374">SWCLK</tspan></text>
+    <text
+       id="text504-1"
+       style="font-variant:normal;font-weight:normal;font-size:11.3932px;font-family:'GOST type B';-inkscape-font-specification:GOSTTypeB;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.698374"
+       transform="skewX(-11.309933)"
+       x="528.65002"
+       y="316.78717"><tspan
+         id="tspan502-2"
+         y="316.78717"
+         x="528.65002"
+         style="stroke-width:0.698374" /></text>
+  </g>
+  <g
+     id="g1233-7-3"
+     transform="translate(171.51788,211.25253)">
+    <text
+       y="316.78717"
+       x="510.11331"
+       transform="skewX(-11.309933)"
+       style="font-variant:normal;font-weight:normal;font-size:11.3932px;font-family:'GOST type B';-inkscape-font-specification:GOSTTypeB;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.698374"
+       id="text500-3-6"><tspan
+         style="stroke-width:0.698374"
+         x="510.11331"
+         sodipodi:role="line"
+         id="tspan498-6-7"
+         y="316.78717">SWDIO</tspan></text>
+    <text
+       y="316.78717"
+       x="528.65002"
+       transform="skewX(-11.309933)"
+       style="font-variant:normal;font-weight:normal;font-size:11.3932px;font-family:'GOST type B';-inkscape-font-specification:GOSTTypeB;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.698374"
+       id="text504-1-5"><tspan
+         style="stroke-width:0.698374"
+         x="528.65002"
+         y="316.78717"
+         id="tspan502-2-3" /></text>
+  </g>
 </svg>

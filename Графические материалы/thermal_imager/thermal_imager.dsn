@@ -33,6 +33,12 @@
     )
   )
   (placement
+    (component "Connector_USB:USB_Micro-B_Molex-105133-0001"
+      (place XS1 78740 -160020 front 90 (PN microUSB))
+    )
+    (component Connector_PinSocket_1.00mm:PinSocket_1x04_P1.00mm_Vertical
+      (place XS2 130302 -152146 front 180 (PN SWD))
+    )
     (component "thermal_imager:TO292P945H1165-4"
       (place BK1 117475 -151765 front 270 (PN "MLX90640-BAB"))
     )
@@ -86,11 +92,62 @@
     (component "thermal_imager:SOP65P640X120-8N"
       (place VT1 80840 -152400 front 0 (PN FS8205A))
     )
-    (component "Connector_USB:USB_Micro-B_Molex-105133-0001"
-      (place XS1 78740 -160020 front 270 (PN microUSB))
-    )
   )
   (library
+    (image "Connector_USB:USB_Micro-B_Molex-105133-0001"
+      (outline (path signal 100  -4000 -1565  -4000 1435))
+      (outline (path signal 100  4000 -1565  4000 1435))
+      (outline (path signal 100  -4000 -1565  4000 -1565))
+      (outline (path signal 100  4000 1435  -4000 1435))
+      (outline (path signal 120  -1700 1075  -1700 1825))
+      (outline (path signal 120  -1700 1825  -1100 1825))
+      (outline (path signal 120  -2000 1825  -4150 1825))
+      (outline (path signal 120  4150 1825  4150 -1725))
+      (outline (path signal 120  -4150 -1725  -1250 -1725))
+      (outline (path signal 120  -4150 1825  -4150 -1725))
+      (outline (path signal 120  4150 -1725  1250 -1725))
+      (outline (path signal 120  2000 1825  4150 1825))
+      (outline (path signal 100  -1300 1675  -1525 1850))
+      (outline (path signal 100  -1525 2075  -1075 2075))
+      (outline (path signal 100  -1300 1675  -1075 1850))
+      (outline (path signal 100  -1525 1850  -1525 2075))
+      (outline (path signal 100  -1075 2075  -1075 1850))
+      (outline (path signal 50  -4500 -2130  -4500 2130))
+      (outline (path signal 50  -4500 2130  4500 2130))
+      (outline (path signal 50  -4500 -2130  4500 -2130))
+      (outline (path signal 50  4500 -2130  4500 2130))
+      (pin Rect[T]Pad_450x1500_um 3 0 825)
+      (pin Rect[T]Pad_450x1500_um 4 650 825)
+      (pin Rect[T]Pad_450x1500_um 2 -650 825)
+      (pin Rect[T]Pad_450x1500_um 5 1300 825)
+      (pin Rect[T]Pad_450x1500_um 1 -1300 825)
+      (pin Oval[A]Pad_1800x1100_um 6 -2800 1075)
+      (pin Oval[A]Pad_1800x1100_um 6@1 2800 1075)
+      (pin Oval[A]Pad_2200x1100_um 6@2 0 -1075)
+    )
+    (image Connector_PinSocket_1.00mm:PinSocket_1x04_P1.00mm_Vertical
+      (outline (path signal 50  -1540 -4250  -1540 1250))
+      (outline (path signal 50  960 -4250  -1540 -4250))
+      (outline (path signal 50  960 1250  960 -4250))
+      (outline (path signal 50  -1540 1250  960 1250))
+      (outline (path signal 120  0 810  685 810))
+      (outline (path signal 120  685 810  685 0))
+      (outline (path signal 120  520 -3445.9  520 -3810))
+      (outline (path signal 120  520 -2445.9  520 -2554.1))
+      (outline (path signal 120  520 -1445.9  520 -1554.1))
+      (outline (path signal 120  -1100 -3810  520 -3810))
+      (outline (path signal 120  -1100 -500  -1100 -3810))
+      (outline (path signal 120  -1100 -500  -685 -500))
+      (outline (path signal 100  -1040 -3750  -1040 750))
+      (outline (path signal 100  460 -3750  -1040 -3750))
+      (outline (path signal 100  460 375  460 -3750))
+      (outline (path signal 100  85 750  460 375))
+      (outline (path signal 100  -1040 750  85 750))
+      (pin Oval[A]Pad_850x850_um 4 0 -3000)
+      (pin Oval[A]Pad_850x850_um 3 0 -2000)
+      (pin Oval[A]Pad_850x850_um 2 0 -1000)
+      (pin Rect[A]Pad_850x850_um 1 0 0)
+    )
     (image "thermal_imager:TO292P945H1165-4"
       (outline (path signal 127  -2554 5120.1  -1814.5 5426.4))
       (outline (path signal 127  -1431.9 4502.7  -1814.5 5426.4))
@@ -509,37 +566,6 @@
       (pin Rect[T]Pad_1560x400_um 7 2880 325)
       (pin Rect[T]Pad_1560x400_um 8 2880 975)
     )
-    (image "Connector_USB:USB_Micro-B_Molex-105133-0001"
-      (outline (path signal 50  4500 -2130  4500 2130))
-      (outline (path signal 50  -4500 -2130  4500 -2130))
-      (outline (path signal 50  -4500 2130  4500 2130))
-      (outline (path signal 50  -4500 -2130  -4500 2130))
-      (outline (path signal 100  -1075 2075  -1075 1850))
-      (outline (path signal 100  -1525 1850  -1525 2075))
-      (outline (path signal 100  -1300 1675  -1075 1850))
-      (outline (path signal 100  -1525 2075  -1075 2075))
-      (outline (path signal 100  -1300 1675  -1525 1850))
-      (outline (path signal 120  2000 1825  4150 1825))
-      (outline (path signal 120  4150 -1725  1250 -1725))
-      (outline (path signal 120  -4150 1825  -4150 -1725))
-      (outline (path signal 120  -4150 -1725  -1250 -1725))
-      (outline (path signal 120  4150 1825  4150 -1725))
-      (outline (path signal 120  -2000 1825  -4150 1825))
-      (outline (path signal 120  -1700 1825  -1100 1825))
-      (outline (path signal 120  -1700 1075  -1700 1825))
-      (outline (path signal 100  4000 1435  -4000 1435))
-      (outline (path signal 100  -4000 -1565  4000 -1565))
-      (outline (path signal 100  4000 -1565  4000 1435))
-      (outline (path signal 100  -4000 -1565  -4000 1435))
-      (pin Oval[A]Pad_2200x1100_um 6 0 -1075)
-      (pin Oval[A]Pad_1800x1100_um 6@1 2800 1075)
-      (pin Oval[A]Pad_1800x1100_um 6@2 -2800 1075)
-      (pin Rect[T]Pad_450x1500_um 1 -1300 825)
-      (pin Rect[T]Pad_450x1500_um 5 1300 825)
-      (pin Rect[T]Pad_450x1500_um 2 -650 825)
-      (pin Rect[T]Pad_450x1500_um 4 650 825)
-      (pin Rect[T]Pad_450x1500_um 3 0 825)
-    )
     (padstack Round[A]Pad_1100_um
       (shape (circle F.Cu 1100))
       (shape (circle B.Cu 1100))
@@ -585,6 +611,11 @@
       (shape (path B.Cu 1600  0 0  0 0))
       (attach off)
     )
+    (padstack Oval[A]Pad_850x850_um
+      (shape (path F.Cu 850  0 0  0 0))
+      (shape (path B.Cu 850  0 0  0 0))
+      (attach off)
+    )
     (padstack RoundRect[T]Pad_1550x300_75.285_um
       (shape (polygon F.Cu 0  713.073 149.141  725.749 145.745  737.643 140.199  748.392 132.672
             757.672 123.392  765.199 112.643  770.745 100.749  774.141 88.073
@@ -623,6 +654,11 @@
       (shape (rect F.Cu -275 -600 275 600))
       (attach off)
     )
+    (padstack Rect[A]Pad_850x850_um
+      (shape (rect F.Cu -425 -425 425 425))
+      (shape (rect B.Cu -425 -425 425 425))
+      (attach off)
+    )
     (padstack Rect[A]Pad_1100x1100_um
       (shape (rect F.Cu -550 -550 550 550))
       (shape (rect B.Cu -550 -550 550 550))
@@ -658,11 +694,12 @@
   )
   (network
     (net "Net-(BK1-Pad2)"
-      (pins BK1-2 C4-2 C5-2 C6-2 C7-2 C9-2 DD3-64 DD3-48 DD3-32 DD3-19 DD4-8 SB1-2)
+      (pins XS2-1 BK1-2 C4-2 C5-2 C6-2 C7-2 C9-2 DD3-64 DD3-48 DD3-32 DD3-19 DD4-8
+        SB1-2)
     )
     (net GND
-      (pins BK1-3 C1-1 C3-2 C4-1 C5-1 C6-1 C7-1 C8-1 C9-1 DD1-1 DD1-3 DD3-63 DD3-60
-        DD3-47 DD3-31 DD3-18 DD4-15 R3-2 XS1-6 XS1-6@1 XS1-6@2 XS1-5)
+      (pins XS1-5 XS2-4 BK1-3 C1-1 C3-2 C4-1 C5-1 C6-1 C7-1 C8-1 C9-1 DD1-1 DD1-3
+        DD3-63 DD3-60 DD3-47 DD3-31 DD3-18 DD4-15 R3-2)
     )
     (net "Net-(BK1-Pad1)"
       (pins BK1-1 DD3-59)
@@ -671,7 +708,7 @@
       (pins BK1-4 DD3-58)
     )
     (net "Net-(C1-Pad2)"
-      (pins C1-2 DD1-8 DD1-4 HL1-2 HL2-2 XS1-1)
+      (pins XS1-1 C1-2 DD1-8 DD1-4 HL1-2 HL2-2)
     )
     (net "Net-(C2-Pad1)"
       (pins C2-1 DD2-5 R5-2)
@@ -827,10 +864,10 @@
       (pins DD3-45)
     )
     (net "Net-(DD3-Pad46)"
-      (pins DD3-46)
+      (pins XS2-2 DD3-46)
     )
     (net "Net-(DD3-Pad49)"
-      (pins DD3-49)
+      (pins XS2-3 DD3-49)
     )
     (net "Net-(DD3-Pad50)"
       (pins DD3-50)
